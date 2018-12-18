@@ -7,7 +7,8 @@ interface ButtonProps{
     small?: boolean,
     red?: boolean,
     disabled?: boolean,
-    style?: {}
+    style?: {},
+    onClick?: Function
 }
 
 export default class Component extends React.Component<ButtonProps>{
@@ -36,7 +37,7 @@ export default class Component extends React.Component<ButtonProps>{
 
     render(){
         return(
-            <div className={this.getClassName('Wrapper')}>
+            <div className={this.getClassName('Wrapper')} onClick={() => {this.props.onClick ? this.props.onClick() : ""}}>
                 <button className={this.getClassName('Button')}>{this.props.value}</button>
             </div>
         )

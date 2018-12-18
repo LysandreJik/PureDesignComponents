@@ -6,10 +6,21 @@
     width: 185px;
     margin: 10px;
     color: var(--light-blue);
+    cursor: pointer;
+    border: 2px solid var(--light-blue);
+    background-color: transparent;
 }
 
 .PDC__Wrapper--red{
     color: var(--light-red);
+    border: 2px solid var(--light-red);
+}
+
+.PDC__Wrapper--disabled{
+    background-color: var(--very-light-gray);
+    border: 2px solid var(--light-gray);
+    color: var(--light-white);
+    cursor: auto;
 }
 
 .PDC__Wrapper:hover{
@@ -33,6 +44,10 @@
     background: linear-gradient(to bottom right, var(--light-red), var(--dark-red));
 }
 
+.PDC__Wrapper--disabled::after{
+    background: var(--very-light-gray);
+}
+
 .PDC__Wrapper:hover::after {
     opacity: 1;
 }
@@ -41,18 +56,14 @@
     font-size: 12px;
     letter-spacing: 3px;
     color: black;
-    border: 2px solid var(--light-blue);
+    border: none;
     text-transform: uppercase;
     transition: all 0.2s;
-    background-color: transparent;
+    background-color: inherit;
     width: 100%;
     pointer-events: none;
     padding: 20px;
     color: inherit;
-}
-
-.PDC__Button--red{
-    border: 2px solid var(--light-red);
 }
 
 .PDC__Wrapper--large{

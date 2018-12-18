@@ -2,6 +2,7 @@ import React from 'react'
 import Button from './Button';
 
 export default class ButtonDisplay extends React.Component{
+
     render(){
         return(
             <div>
@@ -21,6 +22,15 @@ export default class ButtonDisplay extends React.Component{
                     <Button value={"Button"} red/>
                     Small red button <i>{"<Button value={'Button'} red small/>"}</i>
                     <Button value={"Button"} red small/>
+                </div>
+
+                <div>
+                    Large disabled button <i>{"<Button value={'Button'} disabled large/>"}</i>
+                    <Button value={"Button"} disabled large/>
+                    Medium disabled button <i>{"<Button value={'Button'} disabled/>"}</i>
+                    <Button value={"Button"} disabled/>
+                    Small disabled button <i>{"<Button value={'Button'} disabled small/>"}</i>
+                    <Button value={"Button"} disabled small/>
                 </div>
             </div>
         )
