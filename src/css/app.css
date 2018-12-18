@@ -1,0 +1,74 @@
+
+body{
+    --app-background-color: #0f3300;
+    --white: #f5f5ff;
+
+    --light-blue: #95caff;
+    --dark-blue: #75aaff;
+
+    --light-red: #ff6677;
+    --dark-red: #ff2244;
+
+    --light-gray: #4B4F58;
+    --dark-gray: #3B3F48;
+
+    background-color: var(--dark-gray);
+    color: var(--white);
+    font-family: Raleway Light;
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: url("./fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("./fonts/Raleway-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Raleway Light Italic";
+    src: url("./fonts/Raleway-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url("./fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url("./fonts/Raleway-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Black";
+    src: url("./fonts/Raleway-Black.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url("./fonts/Raleway-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Medium";
+    src: url("./fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Medium Italic";
+    src: url("./fonts/Raleway-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url("./fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Italic";
+    src: url("./fonts/Raleway-Italic.ttf");
+}
