@@ -1,7 +1,5 @@
 
 body{
-    --app-background-color: #0f3300;
-    --white: #f5f5ff;
 
     --light-blue: #95caff;
     --dark-blue: #75aaff;
@@ -9,13 +7,23 @@ body{
     --light-red: #ff6677;
     --dark-red: #ff2244;
 
-    --very-light-gray: #aaaabb;
+    --white: #f5f5ff;
+    --very-light-gray: #aaaaae;
     --light-gray: #4B4F58;
     --dark-gray: #3B3F48;
 
-    background-color: var(--dark-gray);
-    color: var(--white);
+    --primary:  var(--white);
+    --secondary: var(--dark-gray);
+
+    background-color: var(--secondary);
+    color: var(--primary);
     font-family: Raleway Light;
+}
+
+h1{
+    margin: 30px;
+    font-family: Raleway Light;
+    letter-spacing: 7px;
 }
 
 @font-face {

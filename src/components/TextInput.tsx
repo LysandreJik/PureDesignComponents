@@ -1,17 +1,15 @@
 import React from 'react'
-import '../css/Button.css'
+import '../css/TextInput.css'
 
-interface ButtonProps{
-    value: string,
+interface TextInputProps{
     large?: boolean,
     small?: boolean,
     red?: boolean,
     disabled?: boolean,
     style?: {},
-    onClick?: Function
 }
 
-export default class Component extends React.Component<ButtonProps>{
+export default class TextInput extends React.Component<TextInputProps>{
 
     getClassName(item: string){
         let className = "PDC__"+item;
@@ -37,8 +35,8 @@ export default class Component extends React.Component<ButtonProps>{
 
     render(){
         return(
-            <div className={this.getClassName('ButtonWrapper')} onClick={() => {this.props.onClick ? this.props.onClick() : ""}}>
-                <button className={this.getClassName('Button')}>{this.props.value}</button>
+            <div className="PDC__TextInputWrapper">
+                <input type='text' style={this.props.style} className={this.getClassName("TextInput")} defaultValue="Default input"/>
             </div>
         )
     }

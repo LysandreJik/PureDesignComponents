@@ -1,0 +1,40 @@
+
+.PDC__TextInputWrapper{
+    margin: 30px 0;
+}
+
+.PDC__TextInput{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed var(--light-blue);
+    font-style: italic;
+    color: var(--primary);
+    transition: all 0.3s ease;
+    outline: none;
+    letter-spacing: 2px;
+    font-family: Raleway Light;
+
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.PDC__TextInput:focus{
+    border-bottom: 1px dashed var(--primary);
+}
+
+.PDC__TextInput:hover{
+    border-bottom: 1px dashed var(--very-light-gray);
+}
+
+.PDC__TextInput--large{
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+}
+
+.PDC__TextInput--small{
+    width: 150;
+    height: 20px;
+    font-size: 16px;
+}
