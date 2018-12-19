@@ -13,6 +13,14 @@ export default class ButtonDisplay extends React.Component{
                     <Button value={"Button"} />
                     Small button <i>{"<Button value={'Button'} small/>"}</i>
                     <Button value={"Button"} small/>
+                    <br/>
+                    <br/>
+                    Large button <i>{"<Button value={'Button'} large wave/>"}</i>
+                    <Button value={"Button"} large wave/>
+                    Medium button <i>{"<Button value={'Button'} wave/>"}</i>
+                    <Button value={"Button"} wave/>
+                    Small button <i>{"<Button value={'Button'} small wave/>"}</i>
+                    <Button value={"Button"} small wave/>
                 </div>
 
                  <div style={{margin: "20px"}}>
@@ -22,6 +30,14 @@ export default class ButtonDisplay extends React.Component{
                     <Button value={"Button"} red/>
                     Small red button <i>{"<Button value={'Button'} red small/>"}</i>
                     <Button value={"Button"} red small/>
+                    <br/>
+                    <br/>
+                    Large button <i>{"<Button value={'Button'} red large wave/>"}</i>
+                    <Button value={"Button"} red large wave/>
+                    Medium button <i>{"<Button value={'Button'} red wave/>"}</i>
+                    <Button value={"Button"} red wave/>
+                    Small button <i>{"<Button value={'Button'} red small wave/>"}</i>
+                    <Button value={"Button"} red small wave/>
                 </div>
 
                 <div style={{margin: "20px"}}>

@@ -1,0 +1,19 @@
+
+.PDC__Modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.PDC__Modal > div{
+    border: 2px solid var(--primary);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    background-color: var(--secondary); 
+    padding: 20px;
+}

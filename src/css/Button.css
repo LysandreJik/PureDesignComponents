@@ -52,6 +52,10 @@
     opacity: 1;
 }
 
+.PDC__ButtonWrapper--wave:hover::after{
+    opacity: 0;
+}
+
 .PDC__Button{
     font-size: 12px;
     letter-spacing: 3px;
@@ -74,4 +78,10 @@
 .PDC__ButtonWrapper--small{
     font-size: 10px;
     width: 125px;
+}
+
+.PDC__ButtonSVG{
+    height: 44px;
+    position: absolute;
+    top: 0;
 }
