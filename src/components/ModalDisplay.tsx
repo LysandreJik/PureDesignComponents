@@ -10,7 +10,7 @@ export default class ModalDisplay extends React.Component{
         return(
             <div>
                 <Button value={"Open modal"} onClick={() => this.setState({displayModal: true})} red wave/>
-                {this.state.displayModal ? <Modal hide={() => this.setState({displayModel: false})}><TwoButtonModal/></Modal> : ""}
+                {this.state.displayModal ? <Modal hide={() => this.setState({displayModal: false})}><TwoButtonModal/></Modal> : ""}
             </div>
         )
     }

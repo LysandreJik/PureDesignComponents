@@ -96,7 +96,7 @@ export default class Component extends React.Component<ButtonProps>{
             let width: number = document.getElementById(this.wrapperId)!.offsetWidth;
 
             for(let i = 0; i < this.paths.length; i++){
-                this.paths[i].animate({duration: 200, delay: i*0}).y(-this.pathsStrings[i].randomHeight);
+                this.paths[i].animate({duration: 200}).y(-this.pathsStrings[i].randomHeight);
             }
         }
   
@@ -108,7 +108,7 @@ export default class Component extends React.Component<ButtonProps>{
             let width: number = document.getElementById(this.wrapperId)!.offsetWidth;
 
             for(let i = 0; i < this.paths.length; i++){
-                this.paths[i].animate({duration: 200, delay: i*0}).y(this.pathsStrings[i].randomHeight);
+                this.paths[i].animate({duration: 200}).y(this.pathsStrings[i].randomHeight);
             }
         }
     }
